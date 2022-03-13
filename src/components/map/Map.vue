@@ -57,10 +57,15 @@ export default defineComponent({
       id: 'kebab',
       type: 'symbol',
       source: 'geojson',
+      paint: {
+        'text-color': prefersColorSchemeDark.value ? 'white' : 'black',
+      },
       layout: {
-        // 'text-field': ['get', 'name'],
-        // 'text-font': ['Open Sans Bold'],
-        // 'text-size': 11,
+        'text-field': ['get', 'score'],
+        'text-font': ['Metropolis Regular', 'Klokantech Noto Sans Regular'],
+        'text-size': 18,
+        'text-offset': [1, 0.2],
+        'text-anchor': 'left',
         'icon-image': 'doenerdude',
         'icon-size': 0.25,
         'icon-rotation-alignment': 'map',
