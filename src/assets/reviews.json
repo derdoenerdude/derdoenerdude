@@ -1,0 +1,437 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gaziantep",
+        "score": 9,
+        "url": "https://www.instagram.com/p/Ca7o-okA1QW/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.1376982, 54.3061509]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Best Döner",
+        "score": 9,
+        "url": "https://www.instagram.com/p/CYjVbKuoWVR/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.1891844, 54.3363733]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Food Box",
+        "score": 11,
+        "url": "https://www.instagram.com/p/CXtszjBgBVL/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.1389339, 54.322835]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dönerhaus Hassee",
+        "score": 12,
+        "url": "https://www.instagram.com/p/CWTvSfPACOt/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.0955471, 54.3011607]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "King Grill",
+        "score": 8.5,
+        "url": "https://www.instagram.com/p/CVDtEr3AysA/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.13271, 54.34662]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mirans Döner",
+        "score": 9.5,
+        "url": "https://www.instagram.com/p/CTzRWikAnJV/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.1743121, 54.3947296]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Konak",
+        "score": 9,
+        "url": "https://www.instagram.com/p/CR6mcu2geFE/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.1343872, 54.3281932]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Antep Sofrasi",
+        "score": 13.5,
+        "url": "https://www.instagram.com/p/CRCDAtHAIaV/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.1483751, 54.3138169]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Muharrems Dönertreff",
+        "score": 8.5,
+        "url": "https://www.instagram.com/p/CQ3iAMaAq4c/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.1186913, 54.3324629]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Grill Palast ",
+        "score": 10,
+        "url": "https://www.instagram.com/p/CQJc0wRgApf/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.107431, 54.3056219]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sultan's",
+        "score": 11,
+        "url": "https://www.instagram.com/p/CPV4wX5AZSc/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.13152, 54.31531]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kiel Imbiss",
+        "score": 9.5,
+        "url": "https://www.instagram.com/p/COlKwENg_LF/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.1333918, 54.3406495]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zahra Restaurant",
+        "score": 10.5,
+        "url": "https://www.instagram.com/p/CN25KLEASVV/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.0543063, 54.3231374]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Öz Maraş",
+        "score": 11.5,
+        "url": "https://www.instagram.com/p/CNA6GVNAGpj/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.146909, 54.3126411]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Köşk",
+        "score": 9.5,
+        "url": "https://www.instagram.com/p/CMxdFutAZfb/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.1333799, 54.3287438]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Carmur Snack Bar & Grill",
+        "score": 7,
+        "url": "https://www.instagram.com/p/CLrDZXrgF8z/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.1306903, 54.3273853]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Erdal",
+        "score": 12.5,
+        "url": "https://www.instagram.com/p/CKgz3c0ATub/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.1716059, 54.3970232]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "La Diamo Pizza & L.D. Döner",
+        "score": 10.5,
+        "url": "https://www.instagram.com/p/CJ4B7IWgv66/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.1209638, 54.3322214]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Grill-Imbiss Nr. 1 Döner",
+        "score": 12.5,
+        "url": "https://www.instagram.com/p/CJooFJ1gsKs/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.1252377, 54.3081577]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Garips City",
+        "score": 10.5,
+        "url": "https://www.instagram.com/p/CIoH6HBgcLZ/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.1391119, 54.323324]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Amida Döner & Pizzeria",
+        "score": 10,
+        "url": "https://www.instagram.com/p/CIQ18DdgLXB/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.1356513, 54.3352211]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Arkadas",
+        "score": 10,
+        "url": "https://www.instagram.com/p/CH-cpfBgolN/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.1419082, 54.3225476]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dönertreff Hassee",
+        "score": 13,
+        "url": "https://www.instagram.com/p/CHqA63Fg8Sc/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.1006732, 54.3083476]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Milan",
+        "score": 11,
+        "url": "https://www.instagram.com/p/CGz28AogzFh/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.1327369, 54.3374362]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Marmara",
+        "score": 10.5,
+        "url": "https://www.instagram.com/p/CGPigBrAnhN/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.13404, 54.33969]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Garips",
+        "score": 12.5,
+        "url": "https://www.instagram.com/p/CGKZkedgetm/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.1162089, 54.3251128]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Erkans",
+        "score": 11.5,
+        "url": "https://www.instagram.com/p/CE19lu_g_wX/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.1378179, 54.3289094]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dilan's",
+        "score": 13,
+        "url": "https://www.instagram.com/p/CEoTDdagTxH/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.11588, 54.32489]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Agora",
+        "score": 12,
+        "url": "https://www.instagram.com/p/CEHJwGeA-iF/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.14846, 54.31457]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SeyPa",
+        "score": 13.5,
+        "url": "https://www.instagram.com/p/CD9Gq0bAkpY/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.1164444, 54.3249595]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Garips Kirchhochallee",
+        "score": 13,
+        "url": "https://www.instagram.com/p/CDPL6FKg_Qg/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.1214723, 54.3165893]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": " dönerWERK Kiel",
+        "score": 8.5,
+        "url": "https://www.instagram.com/p/CDJnDXvhL8I/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.1354427, 54.3214911]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mein Döner & Co.",
+        "score": 12,
+        "url": "https://www.instagram.com/p/CDHBC_FBwIg/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.12864, 54.31916]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lokma",
+        "score": 8.5,
+        "url": "https://www.instagram.com/p/CC8bPRUBEFS/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.12978, 54.33444]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dogan",
+        "score": 11,
+        "url": "https://www.instagram.com/p/CC088gwh9WB/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.1288, 54.33721]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mr. Döner",
+        "score": 11.5,
+        "url": "https://www.instagram.com/p/CCttqYvBa9K/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.12671, 54.32077]
+      }
+    }
+  ]
+}
