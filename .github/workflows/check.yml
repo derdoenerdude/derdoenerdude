@@ -34,7 +34,7 @@ jobs:
         with:
           version: 6
           run_install: |
-              args: [--frozen-lockfile]
+            args: [--frozen-lockfile]
 
       - name: Build
         run: pnpm run build
@@ -65,7 +65,7 @@ jobs:
         with:
           version: 6
           run_install: |
-              args: [--frozen-lockfile]
+            args: [--frozen-lockfile]
 
       - name: Typecheck
         run: pnpm run typecheck
@@ -96,7 +96,7 @@ jobs:
         with:
           version: 6
           run_install: |
-              args: [--frozen-lockfile]
+            args: [--frozen-lockfile]
 
       - name: Lint
         run: pnpm run lint
@@ -127,7 +127,7 @@ jobs:
         with:
           version: 6
           run_install: |
-              args: [--frozen-lockfile]
+            args: [--frozen-lockfile]
 
       - name: Check format
         run: pnpm run formatcheck
