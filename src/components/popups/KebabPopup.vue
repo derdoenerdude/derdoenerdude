@@ -10,7 +10,7 @@
     </div>
     <div class="flex flex-col gap-2">
       <Button :href="kebab.properties.url"><i-ph-instagram-logo class="mr-2" />Review auf Instagram</Button>
-      <Button :href="`https://www.google.com/maps/search/?api=1&query=${kebab.properties.name}`"
+      <Button :href="`https://www.google.com/maps/search/?api=1&query=${kebab.properties.name}+Kiel`"
         ><i-logos-google-maps class="mr-2" />In Google Maps anzeigen</Button
       >
       <Button :href="`geo:${kebab.geometry.coordinates[1]},${kebab.geometry.coordinates[0]}`"
