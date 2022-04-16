@@ -83,6 +83,7 @@ export default defineComponent({
         padding: {
           bottom: 500, // TODO use 3/4 of screen height
         },
+        zoom: 15,
       });
     }
 
