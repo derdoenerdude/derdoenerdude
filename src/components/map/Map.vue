@@ -6,8 +6,8 @@
 // eslint-disable-next-line no-restricted-imports
 import 'maplibre-gl/dist/maplibre-gl.css';
 
-import { FeatureCollection, Point } from 'geojson';
-import { AttributionControl, Map, SymbolLayerSpecification } from 'maplibre-gl';
+import type { FeatureCollection, Point } from 'geojson';
+import { AttributionControl, GeolocateControl, Map, NavigationControl, SymbolLayerSpecification } from 'maplibre-gl';
 import { computed, defineComponent, onMounted, PropType, Ref, toRef, watch } from 'vue';
 
 import { KebabProperties, Marker } from '~/api/types';
@@ -102,8 +102,9 @@ export default defineComponent({
       const attributionControl = new AttributionControl({ compact: true });
       map.addControl(attributionControl);
 
-      // var nav = new MapLibre.NavigationControl();
-      // map.addControl(nav, 'bottom-right');
+      map.addControl(new NavigationControl({}), 'bottom-right');
+
+      map.addControl(new GeolocateControl({}), 'bottom-right');
 
       map.on('load', () => {
         // eslint-disable-next-line promise/prefer-await-to-callbacks
