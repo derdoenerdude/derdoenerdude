@@ -70,6 +70,7 @@ export default defineComponent({
         'icon-size': 0.25,
         'icon-rotation-alignment': 'map',
         'icon-allow-overlap': true,
+        'text-allow-overlap': ['step', ['zoom'], false, 15, true],
       },
     }));
 
@@ -83,9 +84,25 @@ export default defineComponent({
         padding: {
           bottom: 500, // TODO use 3/4 of screen height
         },
-        zoom: 15,
+        zoom: 16,
       });
     }
+
+    const selectedMarkerItem = computed(() => {
+      const marker = selectedMarker.value;
+      if (!marker) {
+        return undefined;
+      }
+      return reviewsGeoJson.features.find(({ properties }) => properties.name === marker.id);
+    });
+
+    watch(selectedMarkerItem, (_selectedMarkerItem) => {
+      if (!map || !_selectedMarkerItem) {
+        return;
+      }
+
+      flyTo(_selectedMarkerItem.geometry?.coordinates as [number, number]);
+    });
 
     onMounted(async () => {
       map = new Map({
@@ -124,6 +141,10 @@ export default defineComponent({
 
           map.addLayer(kebabLayer.value);
         });
+
+        if (selectedMarkerItem.value) {
+          flyTo(selectedMarkerItem.value.geometry?.coordinates as [number, number]);
+        }
       });
 
       map.on('mouseenter', 'kebab', () => {
@@ -172,21 +193,6 @@ export default defineComponent({
       } else {
         map.setStyle(brightMapStyle);
       }
-    });
-
-    const selectedMarkerItem = computed(() => {
-      const marker = selectedMarker.value;
-      if (!marker) {
-        return undefined;
-      }
-      return reviewsGeoJson.features.find(({ properties }) => properties.name === marker.id);
-    });
-    watch(selectedMarkerItem, (_selectedMarkerItem) => {
-      if (!map || !_selectedMarkerItem) {
-        return;
-      }
-
-      flyTo(_selectedMarkerItem.geometry?.coordinates as [number, number]);
     });
   },
 });
