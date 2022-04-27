@@ -432,6 +432,18 @@
         "type": "Point",
         "coordinates": [10.12671, 54.32077]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hassee Pizzeria und Döner",
+        "score": 10.5,
+        "url": "https://www.instagram.com/p/Cc23OKfIAKh/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.1132648, 54.3036963]
+      }
     }
   ]
 }
