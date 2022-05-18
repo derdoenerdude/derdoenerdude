@@ -444,6 +444,18 @@
         "type": "Point",
         "coordinates": [10.1132648, 54.3036963]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Döner Olympia",
+        "score": 6,
+        "url": "https://www.instagram.com/p/CdsnXOAgZQP/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.1163491, 54.3565962]
+      }
     }
   ]
 }
