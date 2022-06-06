@@ -456,6 +456,18 @@
         "type": "Point",
         "coordinates": [10.1163491, 54.3565962]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ali Baba Pizza & Döner Raisdorf",
+        "score": 12,
+        "url": "https://www.instagram.com/p/CeeFSoaglhE/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.2433827, 54.2808362]
+      }
     }
   ]
 }
