@@ -468,6 +468,18 @@
         "type": "Point",
         "coordinates": [10.2433827, 54.2808362]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Musti Imbiss",
+        "score": 11,
+        "url": "https://www.instagram.com/p/Cf7CS0bI44c/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.0770289, 54.3004824]
+      }
     }
   ]
 }
