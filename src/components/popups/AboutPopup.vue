@@ -7,23 +7,16 @@
     <div class="flex flex-col gap-2 m-2 text-center text-l">
       <p class="mb-2">Finde den besten Döner in Kiel!</p>
       <p class="mb-2">So kannst du das Projekt unterstützen:</p>
-      <Button href="https://www.instagram.com/derdoenerdude/"
-        ><i-mdi-instagram class="mr-2" />Follow @derdoenerdude</Button
-      >
-      <Button href="https://github.com/derdoenerdude/derdoenerdude"
-        ><i-mdi-github class="mr-2" />Develop on Github</Button
-      >
+      <Button href="https://www.instagram.com/derdoenerdude/">
+        <i-mdi-instagram class="mr-2" />Follow @derdoenerdude
+      </Button>
+      <Button href="https://github.com/derdoenerdude/derdoenerdude">
+        <i-mdi-github class="mr-2" />Develop on Github
+      </Button>
     </div>
   </div>
 </template>
 
-<script lang="ts">
-import { defineComponent } from 'vue';
-
+<script setup lang="ts">
 import Button from '~/components/atomic/Button.vue';
-
-export default defineComponent({
-  name: 'AboutPopup',
-  components: { Button },
-});
 </script>
