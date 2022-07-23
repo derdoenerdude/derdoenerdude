@@ -30,7 +30,6 @@ import MarkerPopup from '~/components/popups/MarkerPopup.vue';
 import SearchPopup from '~/components/popups/SearchPopup.vue';
 
 export default defineComponent({
-  // eslint-disable-next-line vue/multi-word-component-names
   name: 'Home',
 
   components: { Map, DetailsPopup, AppBar, MarkerPopup, SearchPopup, AboutPopup },

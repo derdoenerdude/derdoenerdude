@@ -17,7 +17,6 @@ import reviews from '~/assets/reviews.json';
 import { usePrefersColorSchemeDark } from '~/compositions/usePrefersColorScheme';
 
 export default defineComponent({
-  // eslint-disable-next-line vue/multi-word-component-names
   name: 'Map',
 
   props: {
