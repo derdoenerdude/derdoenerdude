@@ -37,5 +37,4 @@ const marker = toRef(props, 'marker');
 const prefersColorSchemeDark = usePrefersColorSchemeDark();
 
 const kebab = computed(() => reviews.features.find(({ properties }) => properties.name === marker.value.id));
-return { kebab, prefersColorSchemeDark };
 </script>
