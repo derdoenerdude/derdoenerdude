@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "engines": {
     "node": "14 || 16 || 18",
-    "pnpm": "6"
+    "pnpm": "7"
   },
   "scripts": {
     "start": "vite",
