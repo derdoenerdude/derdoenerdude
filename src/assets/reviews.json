@@ -480,6 +480,18 @@
         "type": "Point",
         "coordinates": [10.0770289, 54.3004824]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Baba Kebab & Pizza",
+        "score": 11.5,
+        "url": "https://www.instagram.com/p/CgjXjjdA4Hp/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.1466002, 54.3109816]
+      }
     }
   ]
 }
