@@ -492,6 +492,18 @@
         "type": "Point",
         "coordinates": [10.1466002, 54.3109816]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Milans Döner",
+        "score": 11.5,
+        "url": "https://www.instagram.com/p/CjDpOJJILfD/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.1322743, 54.3184811]
+      }
     }
   ]
 }
