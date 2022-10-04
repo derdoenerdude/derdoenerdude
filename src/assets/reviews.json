@@ -340,18 +340,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Agora",
-        "score": 12,
-        "url": "https://www.instagram.com/p/CEHJwGeA-iF/"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [10.14846, 54.31457]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "SeyPa",
         "score": 13.5,
         "url": "https://www.instagram.com/p/CD9Gq0bAkpY/"
@@ -510,7 +498,14 @@
       "properties": {
         "name": "Agora",
         "score": 14.5,
-        "url": "https://www.instagram.com/p/CjQnOkngPMG/"
+        "url": "https://www.instagram.com/p/CjQnOkngPMG/",
+        "oldReviews": [
+          {
+            "score": 12,
+            "url": "https://www.instagram.com/p/CEHJwGeA-iF/",
+            "date": "2020-08-20T00:00:00.000Z"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",

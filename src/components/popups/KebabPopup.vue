@@ -17,6 +17,12 @@
         <i-ph-map-pin-line class="mr-2" />In beliebiger Karten-App anzeigen
       </Button>
     </div>
+    <div v-if="kebab.properties.oldReviews !== undefined" class="mt-4">
+      <span class="italic">Frühere Reviews:</span>
+      <div v-for="review in kebab.properties.oldReviews" :key="review.date">
+        {{ new Date(review.date).toLocaleDateString('de-DE') }}: {{ review.score }}/15
+      </div>
+    </div>
   </div>
   <NoData v-else>404 - Döner nicht gefunden!</NoData>
 </template>
