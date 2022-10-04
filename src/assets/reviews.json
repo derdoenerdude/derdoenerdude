@@ -504,6 +504,18 @@
         "type": "Point",
         "coordinates": [10.1322743, 54.3184811]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Agora",
+        "score": 14.5,
+        "url": "https://www.instagram.com/p/CjQnOkngPMG/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.1483635, 54.3145082]
+      }
     }
   ]
 }
