@@ -9,7 +9,7 @@
     </div>
 
     <div class="flex flex-row w-full gap-x-4 justify-center">
-      <Button @click="updateServiceWorker(true)">Installieren</Button>
+      <Button @click="updateServiceWorker(true)">Aktualisieren</Button>
       <Button @click="close">Abbrechen</Button>
     </div>
   </div>
