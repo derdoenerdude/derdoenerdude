@@ -32,6 +32,7 @@ import { computed, toRef } from 'vue';
 
 import { Marker } from '~/api/types';
 import reviews from '~/assets/reviews.json';
+import Button from '~/components/atomic/Button.vue';
 import NoData from '~/components/NoData.vue';
 import { usePrefersColorSchemeDark } from '~/compositions/usePrefersColorScheme';
 
