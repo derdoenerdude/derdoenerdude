@@ -4,77 +4,70 @@
       <i-ph-magnifying-glass-bold />
       <span class="text-lg">Suche</span>
     </div>
-    <div v-if="searchResults.length === 0 && searchInput.length < 3" class="m-auto max-w-52 text-center text-xl">
-      <p>Suche nach einem Döner deiner Wahl</p>
-    </div>
-    <div v-else-if="searchResults.length === 0 && searchInput.length >= 3" class="m-auto max-w-52 text-center text-xl">
+    <div v-if="searchResults.length === 0 && searchInput.length >= 3" class="m-auto max-w-52 text-center text-xl">
       <p>Zu deiner Suche existiert anscheinend kein Eintrag.</p>
     </div>
     <div class="flex flex-col overflow-y-auto">
       <router-link
         v-for="searchResult in searchResults"
-        :key="searchResult.refIndex"
+        :key="searchResult.properties.url"
         :to="{
           name: 'map-marker',
-          params: { markerType: 'kebab', markerId: searchResult.item.properties.name },
+          params: { markerType: 'kebab', markerId: searchResult.properties.name },
         }"
         class="flex py-2 not-last:border-b-1 dark:border-dark-300 max-w-full"
-        @click="$emit('update:search-input', '')"
+        @click="emit('update:search-input', '')"
       >
         <i-dashicons-food class="mr-2" />
         <div class="">
-          {{ searchResult.item.properties.name }}
+          {{ searchResult.properties.name }}
         </div>
-        <div class="ml-auto bg-light-600 dark:bg-dark-300 rounded-lg w-10 flex justify-center">
-          {{ searchResult.item.properties.score }}
+        <div class="ml-auto bg-light-600 dark:bg-dark-300 rounded-lg w-10 flex justify-center max-h-6">
+          {{ searchResult.properties.score }}
         </div>
       </router-link>
     </div>
   </div>
 </template>
 
-<script lang="ts">
+<script lang="ts" setup>
 import Fuse from 'fuse.js';
-import { computed, defineComponent, toRef } from 'vue';
+import { computed, toRef } from 'vue';
 
 import reviews from '~/assets/reviews.json';
 
-export default defineComponent({
-  name: 'SearchPopup',
-
-  props: {
-    searchInput: {
-      type: String,
-      default: '',
-    },
+const props = withDefaults(
+  defineProps<{
+    searchInput: string;
+  }>(),
+  {
+    searchInput: '',
   },
+);
 
-  emits: {
-    // eslint-disable-next-line @typescript-eslint/no-unused-vars
-    'update:search-input': (_searchInput: string) => true,
-  },
+const emit = defineEmits<{
+  (e: 'update:search-input', searchInput: string): void;
+}>();
 
-  setup(props) {
-    const searchInput = toRef(props, 'searchInput');
-    const searchData = reviews.features;
-    const searchIndex = computed(
-      () =>
-        new Fuse(searchData, {
-          includeScore: true,
-          keys: ['properties.name'],
-          threshold: 0.6,
-        }),
-    );
+const searchInput = toRef(props, 'searchInput');
+const searchData = reviews.features;
+const searchIndex = computed(
+  () =>
+    new Fuse(searchData, {
+      includeScore: true,
+      keys: ['properties.name'],
+      threshold: 0.6,
+    }),
+);
 
-    const searchResults = computed(() => {
-      if (searchInput.value === '' || searchInput.value.length < 1) {
-        return [];
-      }
-      // limit to max 20 results
-      return searchIndex.value.search(searchInput.value).slice(0, 20);
-    });
-
-    return { searchResults };
-  },
+const searchResults = computed(() => {
+  if (searchInput.value === '' || searchInput.value.length < 1) {
+    return searchData;
+  }
+  // limit to max 20 results
+  return searchIndex.value
+    .search(searchInput.value)
+    .slice(0, 20)
+    .map((result) => result.item);
 });
 </script>

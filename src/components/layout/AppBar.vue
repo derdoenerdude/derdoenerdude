@@ -84,10 +84,6 @@ export default defineComponent({
         if (_searchInput.length > 0 && route.name !== 'search') {
           void router.push({ name: 'search' });
         }
-
-        if (_searchInput.length === 0 && route.name === 'search') {
-          void router.push({ name: 'home' });
-        }
       },
     });
 
