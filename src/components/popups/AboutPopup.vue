@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col min-h-0 flex-grow">
+  <div class="flex flex-col min-h-0 flex-grow overflow-y-auto">
     <div class="flex pb-2 mb-2 border-b-1 dark:border-dark-100 space-x-2 items-center">
       <i-ph-info />
       <span class="text-lg">Döner-Dude Map</span>
