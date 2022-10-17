@@ -25,6 +25,9 @@
         <div class="">
           {{ searchResult.item.properties.name }}
         </div>
+        <div class="ml-auto bg-light-600 dark:bg-dark-300 rounded-lg w-10 flex justify-center">
+          {{ searchResult.item.properties.score }}
+        </div>
       </router-link>
     </div>
   </div>
