@@ -42,52 +42,38 @@
   </div>
 </template>
 
-<script lang="ts">
-import { computed, defineComponent, toRef } from 'vue';
+<script lang="ts" setup>
+import { computed, toRef } from 'vue';
 import { useRoute, useRouter } from 'vue-router';
 
 import doenerdudeIcon from '~/assets/doenerdude.png';
 import doenerdudeIconTransparent from '~/assets/doenerdude-transparent.png';
 import { usePrefersColorSchemeDark } from '~/compositions/usePrefersColorScheme';
 
-export default defineComponent({
-  name: 'AppBar',
+const props = defineProps<{
+  searchInput: string;
+}>();
 
-  props: {
-    searchInput: {
-      type: String,
-      required: true,
-    },
+const emit = defineEmits<{
+  (e: 'update:search-input', searchInput: string): void;
+}>();
+
+const route = useRoute();
+const router = useRouter();
+
+const prefersColorSchemeDark = usePrefersColorSchemeDark();
+
+const searchInput = toRef(props, 'searchInput');
+const internalSearchInput = computed({
+  get() {
+    return searchInput.value;
   },
+  set(_searchInput: string) {
+    emit('update:search-input', _searchInput);
 
-  emits: {
-    // eslint-disable-next-line @typescript-eslint/no-unused-vars
-    'update:search-input': (_searchInput: string) => true,
-  },
-
-  setup(props, { emit }) {
-    const route = useRoute();
-    const router = useRouter();
-
-    const prefersColorSchemeDark = usePrefersColorSchemeDark();
-
-    const searchInput = toRef(props, 'searchInput');
-    const internalSearchInput = computed({
-      get() {
-        return searchInput.value;
-      },
-      set(_searchInput: string) {
-        searchInput.value = _searchInput;
-
-        emit('update:search-input', _searchInput);
-
-        if (_searchInput.length > 0 && route.name !== 'search') {
-          void router.push({ name: 'search' });
-        }
-      },
-    });
-
-    return { internalSearchInput, prefersColorSchemeDark, doenerdudeIconTransparent, doenerdudeIcon };
+    if (_searchInput.length > 0 && route.name !== 'search') {
+      void router.push({ name: 'search' });
+    }
   },
 });
 </script>
