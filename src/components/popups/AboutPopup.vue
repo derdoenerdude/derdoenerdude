@@ -13,9 +13,9 @@
       <Button href="https://github.com/derdoenerdude/derdoenerdude">
         <i-mdi-github class="mr-2" />Develop on Github
       </Button>
-      <Button href="https://boomerang.ju60.de/share/P4gp79cu/derdoenerdude"
-        ><i-ion-md-analytics class="mr-2" />Analytics</Button
-      >
+      <Button href="https://boomerang.ju60.de/share/P4gp79cu/derdoenerdude">
+        <i-ion-md-analytics class="mr-2" />Analytics
+      </Button>
     </div>
   </div>
 </template>
