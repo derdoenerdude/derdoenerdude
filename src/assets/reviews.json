@@ -511,6 +511,18 @@
         "type": "Point",
         "coordinates": [10.1483635, 54.3145082]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lecker Lecker",
+        "score": 9.5,
+        "url": "https://www.instagram.com/p/CjyJL2soUpO/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.1000383, 54.3430721]
+      }
     }
   ]
 }
