@@ -62,7 +62,7 @@ const searchIndex = computed(
 
 const searchResults = computed(() => {
   if (searchInput.value === '' || searchInput.value.length < 1) {
-    return searchData;
+    return [...searchData].sort((a, b) => b.properties.score - a.properties.score);
   }
   // limit to max 20 results
   return searchIndex.value
