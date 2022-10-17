@@ -23,24 +23,22 @@
         @click="$router.push({ name: 'search' })"
       />
     </div>
-    <div class="flex items-center cursor-pointer select-none w-10 p-2 items-center justify-center">
-      <router-link
-        v-if="$route.name !== 'about' && $route.name !== 'search'"
-        :to="{ name: 'about' }"
-        class="flex items-center"
-        aria-label="Über Döner-Dude Map"
-      >
-        <i-ph-info />
-      </router-link>
-      <router-link
-        v-else-if="$route.name === 'about'"
-        :to="{ name: 'home' }"
-        class="flex items-center"
-        aria-label="Über Döner-Dude Map"
-      >
-        <i-ph-info class="w-6 h-6" />
-      </router-link>
-    </div>
+    <router-link
+      v-if="$route.name !== 'about' && $route.name !== 'search'"
+      :to="{ name: 'about' }"
+      class="flex items-center p-2"
+      aria-label="Über Döner-Dude Map"
+    >
+      <i-ph-info />
+    </router-link>
+    <router-link
+      v-else-if="$route.name === 'about'"
+      :to="{ name: 'home' }"
+      class="flex items-center p-2"
+      aria-label="Über Döner-Dude Map"
+    >
+      <i-ph-info class="w-6 h-6" />
+    </router-link>
   </div>
 </template>
 
