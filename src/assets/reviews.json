@@ -523,6 +523,18 @@
         "type": "Point",
         "coordinates": [10.1000383, 54.3430721]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lawin's Imbiss",
+        "score": 10,
+        "url": "https://www.instagram.com/p/Ck6UqzjIJTa/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.1163711, 54.3153238]
+      }
     }
   ]
 }
