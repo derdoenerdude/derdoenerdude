@@ -535,6 +535,18 @@
         "type": "Point",
         "coordinates": [10.1163711, 54.3153238]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Marmaris Schnellrestaurant",
+        "score": 8,
+        "url": "https://www.instagram.com/p/CmCVP6RINLb/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.1318153, 54.353799]
+      }
     }
   ]
 }
