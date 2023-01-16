@@ -364,9 +364,16 @@
     {
       "type": "Feature",
       "properties": {
-        "name": " dönerWERK Kiel",
-        "score": 8.5,
-        "url": "https://www.instagram.com/p/CDJnDXvhL8I/"
+        "name": "dönerWERK Kiel",
+        "score": 10,
+        "url": "https://www.instagram.com/p/CncmTfqA9jJ/",
+        "oldReviews": [
+          {
+            "score": 8.5,
+            "url": "https://www.instagram.com/p/CDJnDXvhL8I/",
+            "date": "2020-07-27T00:00:00.000Z"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
