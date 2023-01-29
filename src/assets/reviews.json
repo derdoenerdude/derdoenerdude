@@ -566,6 +566,18 @@
         "type": "Point",
         "coordinates": [10.0795163, 54.3582479]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ali Baba Döner und Pizza Elmschenhagen",
+        "score": 9.5,
+        "url": "https://www.instagram.com/p/CoAlhMPISXX/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.1857343, 54.2941005]
+      }
     }
   ]
 }
