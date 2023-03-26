@@ -578,6 +578,18 @@
         "type": "Point",
         "coordinates": [10.1857343, 54.2941005]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Alin's Döner",
+        "score": 5.5,
+        "url": "https://www.instagram.com/p/CqQmAGmoCSi/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.1737791, 54.394725]
+      }
     }
   ]
 }
