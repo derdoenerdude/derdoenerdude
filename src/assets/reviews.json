@@ -590,6 +590,18 @@
         "type": "Point",
         "coordinates": [10.1737791, 54.394725]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ali's Falafel",
+        "score": 14,
+        "url": "https://www.instagram.com/p/CsB7Y9loll9/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.1288872, 54.3193491]
+      }
     }
   ]
 }
