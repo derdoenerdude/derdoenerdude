@@ -602,6 +602,18 @@
         "type": "Point",
         "coordinates": [10.1288872, 54.3193491]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Salawaya Döner",
+        "score": 10,
+        "url": "https://www.instagram.com/p/CuxMzkHIzVw/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.182156, 54.3313678]
+      }
     }
   ]
 }
