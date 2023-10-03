@@ -614,6 +614,18 @@
         "type": "Point",
         "coordinates": [10.182156, 54.3313678]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Luppo Pizzeria&Döner",
+        "score": 9,
+        "url": "https://www.instagram.com/p/Cx3XTJGIaqp/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.0858367, 54.3353925]
+      }
     }
   ]
 }
