@@ -626,6 +626,18 @@
         "type": "Point",
         "coordinates": [10.0858367, 54.3353925]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Imbiss Toros",
+        "score": 10.5,
+        "url": "https://www.instagram.com/p/CyTQXKsI4u2/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.1868978, 54.2918768]
+      }
     }
   ]
 }
