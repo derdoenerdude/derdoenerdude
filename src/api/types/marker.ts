@@ -1,1 +1,4 @@
-export type Marker = { id: string; type: 'kebab' };
+export interface Marker {
+  id: string;
+  type: 'kebab';
+}

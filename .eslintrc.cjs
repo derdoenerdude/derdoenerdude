@@ -11,7 +11,7 @@ module.exports = {
 
   parser: 'vue-eslint-parser',
   parserOptions: {
-    project: ['./tsconfig.eslint.json'],
+    project: true,
     tsconfigRootDir: __dirname,
     parser: '@typescript-eslint/parser',
     sourceType: 'module',
@@ -21,8 +21,8 @@ module.exports = {
   plugins: ['@typescript-eslint', 'import', 'simple-import-sort'],
   extends: [
     'eslint:recommended',
-    'plugin:@typescript-eslint/recommended',
-    'plugin:@typescript-eslint/recommended-requiring-type-checking',
+    'plugin:@typescript-eslint/recommended-type-checked',
+    'plugin:@typescript-eslint/stylistic-type-checked',
     'airbnb-base',
     'airbnb-typescript/base',
     'plugin:import/errors',

@@ -43,9 +43,7 @@ const props = withDefaults(
   },
 );
 
-const emit = defineEmits<{
-  (e: 'update:search-input', searchInput: string): void;
-}>();
+const emit = defineEmits<(e: 'update:search-input', searchInput: string) => void>();
 
 const searchInput = toRef(props, 'searchInput');
 const searchData = reviews.features;

@@ -26,9 +26,7 @@ const props = withDefaults(
   },
 );
 
-const emit = defineEmits<{
-  (e: 'markerClick', marker?: Marker): void;
-}>();
+const emit = defineEmits<(e: 'markerClick', marker?: Marker) => void>();
 
 let map: Map;
 
