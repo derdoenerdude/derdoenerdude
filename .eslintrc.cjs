@@ -1,5 +1,5 @@
 // @ts-check
-/** @type {import('@typescript-eslint/experimental-utils').TSESLint.Linter.Config} */
+/** @type {import('@typescript-eslint/utils').TSESLint.Linter.Config} */
 
 /* eslint-env node */
 module.exports = {
