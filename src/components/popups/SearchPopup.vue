@@ -19,11 +19,9 @@
         @click="emit('update:search-input', '')"
       >
         <i-dashicons-food class="mr-2" />
-        <div class="">
-          {{ searchResult.properties.name }}
-        </div>
-        <div class="ml-auto bg-light-600 dark:bg-dark-300 rounded-lg w-10 min-w-10 flex justify-center max-h-6">
-          {{ searchResult.properties.score }}
+        <span>{{ searchResult.properties.name }}</span>
+        <div class="ml-auto bg-light-600 dark:bg-dark-300 rounded-lg w-16 min-w-16 flex justify-center max-h-6">
+          {{ searchResult.properties.score }}/{{ searchResult.properties.maximumPossibleScore }}
         </div>
       </router-link>
     </div>
@@ -62,7 +60,10 @@ const searchIndex = computed(
 
 const searchResults = computed(() => {
   if (searchInput.value === '' || searchInput.value.length < 1) {
-    return [...searchData].sort((a, b) => b.properties.score - a.properties.score);
+    return [...searchData].toSorted(
+      (a, b) =>
+        b.properties.score / b.properties.maximumPossibleScore - a.properties.score / a.properties.maximumPossibleScore,
+    );
   }
   // limit to max 20 results
   return searchIndex.value

@@ -5,7 +5,7 @@
       <img v-else src="../../assets/doenerdude-transparent.png" alt="Döner-Dude Logo" />
       <div class="flex flex-col text-center w-full">
         <span class="text-lg mb-2 font-bold">{{ kebab.properties.name }}</span>
-        <span class="text-lg">{{ kebab.properties.score }}/15</span>
+        <span class="text-lg">{{ kebab.properties.score }}/{{ kebab.properties.maximumPossibleScore }}</span>
       </div>
     </div>
     <div class="flex flex-col gap-2">
@@ -20,7 +20,7 @@
     <div v-if="kebab.properties.oldReviews !== undefined" class="mt-4">
       <span class="italic">Frühere Reviews:</span>
       <div v-for="review in kebab.properties.oldReviews" :key="review.date">
-        {{ new Date(review.date).toLocaleDateString('de-DE') }}: {{ review.score }}/15
+        {{ new Date(review.date).toLocaleDateString('de-DE') }}: {{ review.score }}/{{ review.maximumPossibleScore }}
       </div>
     </div>
   </div>

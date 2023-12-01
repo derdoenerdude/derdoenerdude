@@ -49,6 +49,13 @@ const icon = computed(() => {
 });
 
 const reviewsGeoJson = reviews as FeatureCollection<Point, KebabProperties>;
+reviewsGeoJson.features = reviewsGeoJson.features.map((feature) => ({
+  ...feature,
+  properties: {
+    ...feature.properties,
+    scoreLabel: `${feature.properties.score}/${feature.properties.maximumPossibleScore}`,
+  },
+}));
 
 const kebabLayer: Ref<SymbolLayerSpecification> = computed(() => ({
   id: 'kebab',
@@ -58,7 +65,7 @@ const kebabLayer: Ref<SymbolLayerSpecification> = computed(() => ({
     'text-color': prefersColorSchemeDark.value ? 'white' : 'black',
   },
   layout: {
-    'text-field': ['get', 'score'],
+    'text-field': ['get', 'scoreLabel'],
     'text-font': ['Metropolis Regular', 'Klokantech Noto Sans Regular'],
     'text-size': 18,
     'text-offset': [1, 0.2],
