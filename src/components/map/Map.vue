@@ -131,23 +131,19 @@ onMounted(async () => {
 
   map.addControl(new GeolocateControl({}), 'bottom-right');
 
-  map.on('load', () => {
-    // eslint-disable-next-line promise/prefer-await-to-callbacks
-    map.loadImage(icon.value, (error, image) => {
-      if (error) {
-        throw error;
-      }
-      if (!image) {
-        throw new Error('Image not found');
-      }
-      map.addImage('doenerdude', image);
-      map.addSource('geojson', {
-        type: 'geojson',
-        data: reviewsGeoJson,
-      });
-
-      map.addLayer(kebabLayer.value);
+  async function loadContent() {
+    const image = await map.loadImage(icon.value);
+    map.addImage('doenerdude', image.data);
+    map.addSource('geojson', {
+      type: 'geojson',
+      data: reviewsGeoJson,
     });
+
+    map.addLayer(kebabLayer.value);
+  }
+
+  map.on('load', () => {
+    void loadContent();
 
     if (selectedMarkerItem.value) {
       flyTo(selectedMarkerItem.value.geometry?.coordinates as [number, number]);
