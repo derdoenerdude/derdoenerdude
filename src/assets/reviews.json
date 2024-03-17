@@ -705,6 +705,19 @@
         "type": "Point",
         "coordinates": [10.1326334, 54.3334191]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cafe Bumerang",
+        "score": 8,
+        "maximumPossibleScore": 10,
+        "url": "https://www.instagram.com/p/C4nXiiQoeDP/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.1860837, 54.3320615]
+      }
     }
   ]
 }
