@@ -48,7 +48,7 @@ devDependencies:
     version: 0.58.6
   '@vitejs/plugin-vue':
     specifier: 5.0.4
-    version: 5.0.4(vite@5.1.6)(vue@3.4.21)
+    version: 5.0.4(vite@5.1.7)(vue@3.4.21)
   eslint:
     specifier: 8.57.0
     version: 8.57.0
@@ -87,7 +87,7 @@ devDependencies:
     version: 5.4.2
   unocss:
     specifier: 0.58.6
-    version: 0.58.6(postcss@8.4.35)(rollup@2.79.1)(vite@5.1.6)
+    version: 0.58.6(postcss@8.4.35)(rollup@2.79.1)(vite@5.1.7)
   unplugin-icons:
     specifier: 0.18.5
     version: 0.18.5
@@ -95,11 +95,11 @@ devDependencies:
     specifier: 0.26.0
     version: 0.26.0(rollup@2.79.1)(vue@3.4.21)
   vite:
-    specifier: 5.1.6
-    version: 5.1.6(@types/node@20.11.28)
+    specifier: 5.1.7
+    version: 5.1.7(@types/node@20.11.28)
   vite-plugin-pwa:
     specifier: 0.19.4
-    version: 0.19.4(vite@5.1.6)(workbox-build@7.0.0)(workbox-window@7.0.0)
+    version: 0.19.4(vite@5.1.7)(workbox-build@7.0.0)(workbox-window@7.0.0)
   vue-eslint-parser:
     specifier: 9.4.2
     version: 9.4.2(eslint@8.57.0)
@@ -2169,7 +2169,7 @@ packages:
     resolution: {integrity: sha512-zuVdFrMJiuCDQUMCzQaD6KL28MjnqqN8XnAqiEq9PNm/hCPTSGfrXCOfwj1ow4LFb/tNymJPwsNbVePc1xFqrQ==}
     dev: true
 
-  /@unocss/astro@0.58.6(rollup@2.79.1)(vite@5.1.6):
+  /@unocss/astro@0.58.6(rollup@2.79.1)(vite@5.1.7):
     resolution: {integrity: sha512-0BvbhEp5Ln6wFNnhISusB2hcfycWkdgnjlFMcLT69efvj4G39MzB6JYT/1qiidLfpj35HcqkpBz7TfZ4bUmOAw==}
     peerDependencies:
       vite: ^2.9.0 || ^3.0.0-0 || ^4.0.0 || ^5.0.0-0
@@ -2179,8 +2179,8 @@ packages:
     dependencies:
       '@unocss/core': 0.58.6
       '@unocss/reset': 0.58.6
-      '@unocss/vite': 0.58.6(rollup@2.79.1)(vite@5.1.6)
-      vite: 5.1.6(@types/node@20.11.28)
+      '@unocss/vite': 0.58.6(rollup@2.79.1)(vite@5.1.7)
+      vite: 5.1.7(@types/node@20.11.28)
     transitivePeerDependencies:
       - rollup
     dev: true
@@ -2362,7 +2362,7 @@ packages:
       '@unocss/core': 0.58.6
     dev: true
 
-  /@unocss/vite@0.58.6(rollup@2.79.1)(vite@5.1.6):
+  /@unocss/vite@0.58.6(rollup@2.79.1)(vite@5.1.7):
     resolution: {integrity: sha512-DPXCoYU/Ozqc/Jeptd41XvtW8MSgVxmtTyhpMAsm/hJuBfwIV7Fy3TZquf4V9BpaTb4ao1LVXzgXmVUmj2HXpA==}
     peerDependencies:
       vite: ^2.9.0 || ^3.0.0-0 || ^4.0.0 || ^5.0.0-0
@@ -2377,19 +2377,19 @@ packages:
       chokidar: 3.6.0
       fast-glob: 3.3.2
       magic-string: 0.30.8
-      vite: 5.1.6(@types/node@20.11.28)
+      vite: 5.1.7(@types/node@20.11.28)
     transitivePeerDependencies:
       - rollup
     dev: true
 
-  /@vitejs/plugin-vue@5.0.4(vite@5.1.6)(vue@3.4.21):
+  /@vitejs/plugin-vue@5.0.4(vite@5.1.7)(vue@3.4.21):
     resolution: {integrity: sha512-WS3hevEszI6CEVEx28F8RjTX97k3KsrcY6kvTg7+Whm5y3oYvcqzVeGCU3hxSAn4uY2CLCkeokkGKpoctccilQ==}
     engines: {node: ^18.0.0 || >=20.0.0}
     peerDependencies:
       vite: ^5.0.0
       vue: ^3.2.25
     dependencies:
-      vite: 5.1.6(@types/node@20.11.28)
+      vite: 5.1.7(@types/node@20.11.28)
       vue: 3.4.21(typescript@5.4.2)
     dev: true
 
@@ -5184,7 +5184,7 @@ packages:
     dependencies:
       call-bind: 1.0.7
       define-properties: 1.2.1
-      es-abstract: 1.22.5
+      es-abstract: 1.23.1
       get-intrinsic: 1.2.4
       has-symbols: 1.0.3
       internal-slot: 1.0.7
@@ -5532,7 +5532,7 @@ packages:
     engines: {node: '>= 10.0.0'}
     dev: true
 
-  /unocss@0.58.6(postcss@8.4.35)(rollup@2.79.1)(vite@5.1.6):
+  /unocss@0.58.6(postcss@8.4.35)(rollup@2.79.1)(vite@5.1.7):
     resolution: {integrity: sha512-HBstDtC6KKD5yCYh5hHpPdHGZai0B/iLlDwkOIK+xfQYrvl8tNBvKfRz3xgiaI5MJ+fLmEOxbfXQIjleU1A0iA==}
     engines: {node: '>=14'}
     peerDependencies:
@@ -5544,7 +5544,7 @@ packages:
       vite:
         optional: true
     dependencies:
-      '@unocss/astro': 0.58.6(rollup@2.79.1)(vite@5.1.6)
+      '@unocss/astro': 0.58.6(rollup@2.79.1)(vite@5.1.7)
       '@unocss/cli': 0.58.6(rollup@2.79.1)
       '@unocss/core': 0.58.6
       '@unocss/extractor-arbitrary-variants': 0.58.6
@@ -5563,8 +5563,8 @@ packages:
       '@unocss/transformer-compile-class': 0.58.6
       '@unocss/transformer-directives': 0.58.6
       '@unocss/transformer-variant-group': 0.58.6
-      '@unocss/vite': 0.58.6(rollup@2.79.1)(vite@5.1.6)
-      vite: 5.1.6(@types/node@20.11.28)
+      '@unocss/vite': 0.58.6(rollup@2.79.1)(vite@5.1.7)
+      vite: 5.1.7(@types/node@20.11.28)
     transitivePeerDependencies:
       - postcss
       - rollup
@@ -5667,7 +5667,7 @@ packages:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
     dev: true
 
-  /vite-plugin-pwa@0.19.4(vite@5.1.6)(workbox-build@7.0.0)(workbox-window@7.0.0):
+  /vite-plugin-pwa@0.19.4(vite@5.1.7)(workbox-build@7.0.0)(workbox-window@7.0.0):
     resolution: {integrity: sha512-KiEFXaYEj2Hg1it+yECy75oqNmlXimI7BaLx7Sxl7Qsd9EIVxaf3GX1mZdLpHe83pDgHBNwm9USGQxSCNp5m7A==}
     engines: {node: '>=16.0.0'}
     peerDependencies:
@@ -5682,15 +5682,15 @@ packages:
       debug: 4.3.4
       fast-glob: 3.3.2
       pretty-bytes: 6.1.1
-      vite: 5.1.6(@types/node@20.11.28)
+      vite: 5.1.7(@types/node@20.11.28)
       workbox-build: 7.0.0
       workbox-window: 7.0.0
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /vite@5.1.6(@types/node@20.11.28):
-    resolution: {integrity: sha512-yYIAZs9nVfRJ/AiOLCA91zzhjsHUgMjB+EigzFb6W2XTLO8JixBCKCjvhKZaye+NKYHCrkv3Oh50dH9EdLU2RA==}
+  /vite@5.1.7(@types/node@20.11.28):
+    resolution: {integrity: sha512-sgnEEFTZYMui/sTlH1/XEnVNHMujOahPLGMxn1+5sIT45Xjng1Ec1K78jRP15dSmVgg5WBin9yO81j3o9OxofA==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
     peerDependencies:
@@ -5944,6 +5944,7 @@ packages:
 
   /workbox-google-analytics@7.0.0:
     resolution: {integrity: sha512-MEYM1JTn/qiC3DbpvP2BVhyIH+dV/5BjHk756u9VbwuAhu0QHyKscTnisQuz21lfRpOwiS9z4XdqeVAKol0bzg==}
+    deprecated: It is not compatible with newer versions of GA starting with v4, as long as you are using GAv3 it should be ok, but the package is not longer being maintained
     dependencies:
       workbox-background-sync: 7.0.0
       workbox-core: 7.0.0
