@@ -3,14 +3,15 @@ import { ref } from 'vue';
 function setDarkMode(enabled: boolean) {
   if (enabled) {
     document.documentElement.classList.add('dark');
-  } else {
+  }
+  else {
     document.documentElement.classList.remove('dark');
   }
 }
 
 const prefersColorSchemeDark = ref<boolean>();
 
-export const usePrefersColorSchemeDark = () => {
+export function usePrefersColorSchemeDark() {
   if (prefersColorSchemeDark.value !== undefined) {
     return prefersColorSchemeDark;
   }
@@ -28,4 +29,4 @@ export const usePrefersColorSchemeDark = () => {
   });
 
   return prefersColorSchemeDark;
-};
+}

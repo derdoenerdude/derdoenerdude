@@ -11,13 +11,13 @@
 </template>
 
 <script setup lang="ts">
-import { RouteLocationRaw } from 'vue-router';
+import type { RouteLocationRaw } from 'vue-router';
 
 defineProps<{
   to?: RouteLocationRaw;
   href?: string;
 }>();
 
-const classes =
-  'border-1 hover:border-gray-300 dark:border-gray-400 dark:hover:border-gray-500 rounded p-2 flex items-center justify-center cursor-pointer';
+const classes
+  = 'border-1 hover:border-gray-300 dark:border-gray-400 dark:hover:border-gray-500 rounded p-2 flex items-center justify-center cursor-pointer';
 </script>

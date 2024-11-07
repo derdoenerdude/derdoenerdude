@@ -17,11 +17,11 @@
   </div>
 </template>
 
-<script lang="ts">
-import { computed, defineComponent, ref } from 'vue';
+<script lang="ts" setup>
+import { computed, ref } from 'vue';
 import { useRoute, useRouter } from 'vue-router';
 
-import { Marker } from '~/api/types';
+import type { Marker } from '~/api/types';
 import DetailsPopup from '~/components/DetailsPopup.vue';
 import AppBar from '~/components/layout/AppBar.vue';
 import Map from '~/components/map/Map.vue';
@@ -29,37 +29,27 @@ import AboutPopup from '~/components/popups/AboutPopup.vue';
 import MarkerPopup from '~/components/popups/MarkerPopup.vue';
 import SearchPopup from '~/components/popups/SearchPopup.vue';
 
-export default defineComponent({
-  name: 'Home',
+const route = useRoute();
+const router = useRouter();
+const selectedMarker = computed<Marker | undefined>({
+  get() {
+    if (route.name !== 'map-marker') {
+      return undefined;
+    }
 
-  components: { Map, DetailsPopup, AppBar, MarkerPopup, SearchPopup, AboutPopup },
-
-  setup() {
-    const route = useRoute();
-    const router = useRouter();
-    const selectedMarker = computed<Marker | undefined>({
-      get() {
-        if (route.name !== 'map-marker') {
-          return undefined;
-        }
-
-        return {
-          type: route.params.markerType,
-          id: route.params.markerId,
-        } as Marker;
-      },
-      set(marker) {
-        if (!marker) {
-          void router.replace({ name: 'home' });
-          return;
-        }
-        void router.replace({ name: 'map-marker', params: { markerType: marker.type, markerId: marker.id } });
-      },
-    });
-
-    const searchInput = ref('');
-
-    return { selectedMarker, searchInput };
+    return {
+      type: route.params.markerType,
+      id: route.params.markerId,
+    } as Marker;
+  },
+  set(marker) {
+    if (!marker) {
+      void router.replace({ name: 'home' });
+      return;
+    }
+    void router.replace({ name: 'map-marker', params: { markerType: marker.type, markerId: marker.id } });
   },
 });
+
+const searchInput = ref('');
 </script>

@@ -1,12 +1,16 @@
 <template>
-  <div class="flex flex-col min-h-0 flex-grow overflow-y-auto">
-    <div class="flex pb-2 mb-2 border-b-1 dark:border-dark-100 space-x-2 items-center">
+  <div class="min-h-0 flex flex-grow flex-col overflow-y-auto">
+    <div class="mb-2 flex items-center border-b-1 pb-2 space-x-2 dark:border-dark-100">
       <i-ph-info />
       <span class="text-lg">Döner-Dude Map</span>
     </div>
-    <div class="flex flex-col gap-2 m-2 text-center text-l">
-      <p class="mb-2">Finde den besten Döner in Kiel!</p>
-      <p class="mb-2">So kannst du das Projekt unterstützen:</p>
+    <div class="text-l m-2 flex flex-col gap-2 text-center">
+      <p class="mb-2">
+        Finde den besten Döner in Kiel!
+      </p>
+      <p class="mb-2">
+        So kannst du das Projekt unterstützen:
+      </p>
       <Button href="https://www.instagram.com/derdoenerdude/">
         <i-mdi-instagram class="mr-2" />Follow @derdoenerdude
       </Button>

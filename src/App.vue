@@ -1,30 +1,17 @@
 <template>
-  <div class="app flex flex-col m-auto w-full h-full bg-gray-100 dark:bg-dark-400 dark:text-gray-300">
+  <div class="app m-auto h-full w-full flex flex-col bg-gray-100 dark:bg-dark-400 dark:text-gray-300">
     <router-view />
     <ReloadPrompt />
   </div>
 </template>
 
-<script lang="ts">
-import { defineComponent } from 'vue';
-
+<script lang="ts" setup>
 import ReloadPrompt from '~/components/ReloadPrompt.vue';
 import { usePrefersColorSchemeDark } from '~/compositions/usePrefersColorScheme';
 
-export default defineComponent({
-  name: 'App',
-
-  components: { ReloadPrompt },
-
-  setup() {
-    usePrefersColorSchemeDark();
-
-    return {};
-  },
-});
+usePrefersColorSchemeDark();
 </script>
 
-<!-- eslint-disable-next-line vue-scoped-css/enforce-style-type -->
 <style>
 html,
 body,

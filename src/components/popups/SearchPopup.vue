@@ -1,6 +1,6 @@
 <template>
-  <div class="flex flex-col min-h-0 flex-grow">
-    <div class="flex pb-2 mb-2 border-b-1 dark:border-dark-100 space-x-2 items-center">
+  <div class="min-h-0 flex flex-grow flex-col">
+    <div class="mb-2 flex items-center border-b-1 pb-2 space-x-2 dark:border-dark-100">
       <i-ph-magnifying-glass-bold />
       <span class="text-lg">Suche</span>
     </div>
@@ -15,12 +15,12 @@
           name: 'map-marker',
           params: { markerType: 'kebab', markerId: searchResult.properties.name },
         }"
-        class="flex py-2 not-last:border-b-1 dark:border-dark-300 max-w-full"
+        class="max-w-full flex py-2 not-last:border-b-1 dark:border-dark-300"
         @click="emit('update:search-input', '')"
       >
         <i-dashicons-food class="mr-2" />
         <span>{{ searchResult.properties.name }}</span>
-        <div class="ml-auto bg-light-600 dark:bg-dark-300 rounded-lg w-16 min-w-16 flex justify-center max-h-6">
+        <div class="ml-auto max-h-6 min-w-16 w-16 flex justify-center rounded-lg bg-light-600 dark:bg-dark-300">
           {{ searchResult.properties.score }}/{{ searchResult.properties.maximumPossibleScore }}
         </div>
       </router-link>
@@ -67,6 +67,6 @@ const searchResults = computed(() => {
   return searchIndex.value
     .search(searchInput.value)
     .slice(0, 20)
-    .map((result) => result.item);
+    .map(result => result.item);
 });
 </script>

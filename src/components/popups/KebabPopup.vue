@@ -1,15 +1,17 @@
 <template>
-  <div v-if="kebab" class="flex flex-col min-h-0 flex-grow overflow-y-auto pb-2">
-    <div class="flex pb-2 mb-2 border-b-1 dark:border-dark-100 space-x-2 items-center">
-      <img v-if="prefersColorSchemeDark" src="../../assets/doenerdude.png" alt="Döner-Dude Logo" />
-      <img v-else src="../../assets/doenerdude-transparent.png" alt="Döner-Dude Logo" />
-      <div class="flex flex-col text-center w-full">
-        <span class="text-lg mb-2 font-bold">{{ kebab.properties.name }}</span>
+  <div v-if="kebab" class="min-h-0 flex flex-grow flex-col overflow-y-auto pb-2">
+    <div class="mb-2 flex items-center border-b-1 pb-2 space-x-2 dark:border-dark-100">
+      <img v-if="prefersColorSchemeDark" src="../../assets/doenerdude.png" alt="Döner-Dude Logo">
+      <img v-else src="../../assets/doenerdude-transparent.png" alt="Döner-Dude Logo">
+      <div class="w-full flex flex-col text-center">
+        <span class="mb-2 text-lg font-bold">{{ kebab.properties.name }}</span>
         <span class="text-lg">{{ kebab.properties.score }}/{{ kebab.properties.maximumPossibleScore }}</span>
       </div>
     </div>
     <div class="flex flex-col gap-2">
-      <Button :href="kebab.properties.url"><i-ph-instagram-logo class="mr-2" />Review auf Instagram</Button>
+      <Button :href="kebab.properties.url">
+        <i-ph-instagram-logo class="mr-2" />Review auf Instagram
+      </Button>
       <Button :href="`https://www.google.com/maps/search/?api=1&query=${kebab.properties.name}+Kiel`">
         <i-logos-google-maps class="mr-2" />In Google Maps anzeigen
       </Button>
@@ -24,13 +26,15 @@
       </div>
     </div>
   </div>
-  <NoData v-else>404 - Döner nicht gefunden!</NoData>
+  <NoData v-else>
+    404 - Döner nicht gefunden!
+  </NoData>
 </template>
 
 <script setup lang="ts">
 import { computed, toRef } from 'vue';
 
-import { Marker } from '~/api/types';
+import type { Marker } from '~/api/types';
 import reviews from '~/assets/reviews.json';
 import Button from '~/components/atomic/Button.vue';
 import NoData from '~/components/NoData.vue';

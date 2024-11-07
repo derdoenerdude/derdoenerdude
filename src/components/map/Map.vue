@@ -1,25 +1,26 @@
 <template>
-  <div id="map" ref="mapElement" class="w-full h-full" />
+  <div id="map" ref="mapElement" class="h-full w-full" />
 </template>
 
 <script lang="ts" setup>
-// eslint-disable-next-line no-restricted-imports
-import 'maplibre-gl/dist/maplibre-gl.css';
-
-import { useElementSize } from '@vueuse/core';
 import type { FeatureCollection, Point } from 'geojson';
-import { AttributionControl, GeolocateControl, Map, NavigationControl, SymbolLayerSpecification } from 'maplibre-gl';
-import { computed, onMounted, Ref, ref, toRef, watch } from 'vue';
 
-import { KebabProperties, Marker } from '~/api/types';
+import type { SymbolLayerSpecification } from 'maplibre-gl';
+import type { Ref } from 'vue';
+import { useElementSize } from '@vueuse/core';
+import { AttributionControl, GeolocateControl, Map, NavigationControl } from 'maplibre-gl';
+import { computed, onMounted, ref, toRef, watch } from 'vue';
+import type { KebabProperties, Marker } from '~/api/types';
+
 import doenerdudeIcon from '~/assets/doenerdude.png';
 import doenerdudeIconTransparent from '~/assets/doenerdude-transparent.png';
 import reviews from '~/assets/reviews.json';
 import { usePrefersColorSchemeDark } from '~/compositions/usePrefersColorScheme';
+import 'maplibre-gl/dist/maplibre-gl.css';
 
 const props = withDefaults(
   defineProps<{
-    selectedMarker: Partial<Marker>;
+    selectedMarker?: Partial<Marker>;
   }>(),
   {
     selectedMarker: () => ({}),
@@ -47,7 +48,7 @@ const icon = computed(() => {
 });
 
 const reviewsGeoJson = reviews as FeatureCollection<Point, KebabProperties>;
-reviewsGeoJson.features = reviewsGeoJson.features.map((feature) => ({
+reviewsGeoJson.features = reviewsGeoJson.features.map(feature => ({
   ...feature,
   properties: {
     ...feature.properties,
@@ -192,7 +193,8 @@ onMounted(async () => {
 watch(prefersColorSchemeDark, () => {
   if (prefersColorSchemeDark.value) {
     map.setStyle(darkMapStyle);
-  } else {
+  }
+  else {
     map.setStyle(brightMapStyle);
   }
 });

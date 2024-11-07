@@ -1,21 +1,21 @@
 {
   "compilerOptions": {
     "target": "esnext",
+    "jsx": "preserve",
+    "lib": ["esnext", "dom"],
     "module": "esnext",
     "moduleResolution": "Bundler",
-    "strict": true,
-    "jsx": "preserve",
-    "sourceMap": true,
-    "resolveJsonModule": true,
-    "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
-    "skipLibCheck": true,
-    "lib": ["esnext", "dom"],
     "paths": {
       "~/*": ["./src/*"]
     },
+    "resolveJsonModule": true,
     "types": ["vite/client", "unplugin-icons/types/vue", "vite-plugin-pwa/client"],
-    "isolatedModules": true
+    "strict": true,
+    "sourceMap": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "skipLibCheck": true
   },
   "include": ["src", "components.d.ts", ".eslintrc.cjs", "vite.config.ts", "uno.config.ts"]
 }
