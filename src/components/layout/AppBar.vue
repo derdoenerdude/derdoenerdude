@@ -46,8 +46,8 @@
 import { computed, toRef } from 'vue';
 import { useRoute, useRouter } from 'vue-router';
 
-import doenerdudeIcon from '~/assets/doenerdude.png';
 import doenerdudeIconTransparent from '~/assets/doenerdude-transparent.png';
+import doenerdudeIcon from '~/assets/doenerdude.png';
 import { usePrefersColorSchemeDark } from '~/compositions/usePrefersColorScheme';
 
 const props = defineProps<{

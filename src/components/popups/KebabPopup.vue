@@ -32,9 +32,9 @@
 </template>
 
 <script setup lang="ts">
-import { computed, toRef } from 'vue';
-
 import type { Marker } from '~/api/types';
+
+import { computed, toRef } from 'vue';
 import reviews from '~/assets/reviews.json';
 import Button from '~/components/atomic/Button.vue';
 import NoData from '~/components/NoData.vue';

@@ -7,13 +7,13 @@ import type { FeatureCollection, Point } from 'geojson';
 
 import type { SymbolLayerSpecification } from 'maplibre-gl';
 import type { Ref } from 'vue';
+import type { KebabProperties, Marker } from '~/api/types';
 import { useElementSize } from '@vueuse/core';
 import { AttributionControl, GeolocateControl, Map, NavigationControl } from 'maplibre-gl';
 import { computed, onMounted, ref, toRef, watch } from 'vue';
-import type { KebabProperties, Marker } from '~/api/types';
 
-import doenerdudeIcon from '~/assets/doenerdude.png';
 import doenerdudeIconTransparent from '~/assets/doenerdude-transparent.png';
+import doenerdudeIcon from '~/assets/doenerdude.png';
 import reviews from '~/assets/reviews.json';
 import { usePrefersColorSchemeDark } from '~/compositions/usePrefersColorScheme';
 import 'maplibre-gl/dist/maplibre-gl.css';
