@@ -22,15 +22,15 @@
     "vue-router": "4.5.0"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^4.2.0",
+    "@antfu/eslint-config": "^4.3.0",
     "@iconify/json": "2.2.306",
     "@types/geojson": "7946.0.16",
     "@types/node": "22.13.4",
-    "@unocss/eslint-plugin": "^65.4.3",
+    "@unocss/eslint-plugin": "^65.5.0",
     "@unocss/preset-wind": "65.4.3",
     "@unocss/transformer-directives": "65.4.3",
     "@vitejs/plugin-vue": "5.2.1",
-    "eslint": "^9.20.1",
+    "eslint": "^9.21.0",
     "eslint-plugin-format": "^1.0.1",
     "prettier": "3.5.1",
     "typescript": "5.7.3",
@@ -41,5 +41,10 @@
     "vite-plugin-pwa": "0.21.1",
     "vue-tsc": "2.2.0",
     "workbox-window": "7.3.0"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild"
+    ]
   }
 }
