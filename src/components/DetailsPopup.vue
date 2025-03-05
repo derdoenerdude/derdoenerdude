@@ -28,7 +28,7 @@ import { computed, ref, toRef } from 'vue';
 const props = withDefaults(
   defineProps<{
     isOpen: boolean;
-    size: '3/4' | '1/2';
+    size?: '3/4' | '1/2';
   }>(),
   {
     size: '3/4',

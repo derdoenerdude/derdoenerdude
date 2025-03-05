@@ -36,7 +36,7 @@ import reviews from '~/assets/reviews.json';
 
 const props = withDefaults(
   defineProps<{
-    searchInput: string;
+    searchInput?: string;
   }>(),
   {
     searchInput: '',
