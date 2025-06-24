@@ -7,7 +7,8 @@
         "name": "Gaziantep",
         "score": 9,
         "maximumPossibleScore": 15,
-        "url": "https://www.instagram.com/p/Ca7o-okA1QW/"
+        "url": "https://www.instagram.com/p/Ca7o-okA1QW/",
+        "date": "2022-03-10T00:00:00.000Z"
       },
       "geometry": {
         "type": "Point",
@@ -20,7 +21,8 @@
         "name": "Best Döner",
         "score": 9,
         "maximumPossibleScore": 15,
-        "url": "https://www.instagram.com/p/CYjVbKuoWVR/"
+        "url": "https://www.instagram.com/p/CYjVbKuoWVR/",
+        "date": "2022-01-10T00:00:00.000Z"
       },
       "geometry": {
         "type": "Point",
@@ -33,7 +35,8 @@
         "name": "Food Box",
         "score": 11,
         "maximumPossibleScore": 15,
-        "url": "https://www.instagram.com/p/CXtszjBgBVL/"
+        "url": "https://www.instagram.com/p/CXtszjBgBVL/",
+        "date": "2021-12-20T00:00:00.000Z"
       },
       "geometry": {
         "type": "Point",
@@ -46,7 +49,8 @@
         "name": "Dönerhaus Hassee",
         "score": 12,
         "maximumPossibleScore": 15,
-        "url": "https://www.instagram.com/p/CWTvSfPACOt/"
+        "url": "https://www.instagram.com/p/CWTvSfPACOt/",
+        "date": "2021-11-15T00:00:00.000Z"
       },
       "geometry": {
         "type": "Point",
@@ -59,7 +63,8 @@
         "name": "King Grill",
         "score": 8.5,
         "maximumPossibleScore": 15,
-        "url": "https://www.instagram.com/p/CVDtEr3AysA/"
+        "url": "https://www.instagram.com/p/CVDtEr3AysA/",
+        "date": "2021-10-15T00:00:00.000Z"
       },
       "geometry": {
         "type": "Point",
@@ -72,7 +77,8 @@
         "name": "Mirans Döner",
         "score": 9.5,
         "maximumPossibleScore": 15,
-        "url": "https://www.instagram.com/p/CTzRWikAnJV/"
+        "url": "https://www.instagram.com/p/CTzRWikAnJV/",
+        "date": "2021-09-14T00:00:00.000Z"
       },
       "geometry": {
         "type": "Point",
@@ -85,7 +91,8 @@
         "name": "Konak",
         "score": 9,
         "maximumPossibleScore": 15,
-        "url": "https://www.instagram.com/p/CR6mcu2geFE/"
+        "url": "https://www.instagram.com/p/CR6mcu2geFE/",
+        "date": "2021-07-29T00:00:00.000Z"
       },
       "geometry": {
         "type": "Point",
@@ -98,7 +105,8 @@
         "name": "Antep Sofrasi",
         "score": 13.5,
         "maximumPossibleScore": 15,
-        "url": "https://www.instagram.com/p/CRCDAtHAIaV/"
+        "url": "https://www.instagram.com/p/CRCDAtHAIaV/",
+        "date": "2021-07-07T00:00:00.000Z"
       },
       "geometry": {
         "type": "Point",
@@ -111,7 +119,8 @@
         "name": "Muharrems Dönertreff",
         "score": 8.5,
         "maximumPossibleScore": 15,
-        "url": "https://www.instagram.com/p/CQ3iAMaAq4c/"
+        "url": "https://www.instagram.com/p/CQ3iAMaAq4c/",
+        "date": "2021-07-03T00:00:00.000Z"
       },
       "geometry": {
         "type": "Point",
@@ -121,10 +130,11 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Grill Palast ",
+        "name": "Grill Palast",
         "score": 10,
         "maximumPossibleScore": 15,
-        "url": "https://www.instagram.com/p/CQJc0wRgApf/"
+        "url": "https://www.instagram.com/p/CQJc0wRgApf/",
+        "date": "2021-06-15T00:00:00.000Z"
       },
       "geometry": {
         "type": "Point",
@@ -137,7 +147,8 @@
         "name": "Sultan's",
         "score": 11,
         "maximumPossibleScore": 15,
-        "url": "https://www.instagram.com/p/CPV4wX5AZSc/"
+        "url": "https://www.instagram.com/p/CPV4wX5AZSc/",
+        "date": "2021-05-26T00:00:00.000Z"
       },
       "geometry": {
         "type": "Point",
@@ -150,7 +161,8 @@
         "name": "Kiel Imbiss",
         "score": 9.5,
         "maximumPossibleScore": 15,
-        "url": "https://www.instagram.com/p/COlKwENg_LF/"
+        "url": "https://www.instagram.com/p/COlKwENg_LF/",
+        "date": "2021-05-07T00:00:00.000Z"
       },
       "geometry": {
         "type": "Point",
@@ -163,7 +175,8 @@
         "name": "Zahra Restaurant",
         "score": 10.5,
         "maximumPossibleScore": 15,
-        "url": "https://www.instagram.com/p/CN25KLEASVV/"
+        "url": "https://www.instagram.com/p/CN25KLEASVV/",
+        "date": "2021-04-19T00:00:00.000Z"
       },
       "geometry": {
         "type": "Point",
@@ -176,7 +189,8 @@
         "name": "Öz Maraş",
         "score": 11.5,
         "maximumPossibleScore": 15,
-        "url": "https://www.instagram.com/p/CNA6GVNAGpj/"
+        "url": "https://www.instagram.com/p/CNA6GVNAGpj/",
+        "date": "2021-03-29T00:00:00.000Z"
       },
       "geometry": {
         "type": "Point",
@@ -189,7 +203,8 @@
         "name": "Köşk",
         "score": 9.5,
         "maximumPossibleScore": 15,
-        "url": "https://www.instagram.com/p/CMxdFutAZfb/"
+        "url": "https://www.instagram.com/p/CMxdFutAZfb/",
+        "date": "2021-03-23T00:00:00.000Z"
       },
       "geometry": {
         "type": "Point",
@@ -202,7 +217,8 @@
         "name": "Carmur Snack Bar & Grill",
         "score": 7,
         "maximumPossibleScore": 15,
-        "url": "https://www.instagram.com/p/CLrDZXrgF8z/"
+        "url": "https://www.instagram.com/p/CLrDZXrgF8z/",
+        "date": "2021-02-24T00:00:00.000Z"
       },
       "geometry": {
         "type": "Point",
@@ -215,7 +231,8 @@
         "name": "Erdal",
         "score": 12.5,
         "maximumPossibleScore": 15,
-        "url": "https://www.instagram.com/p/CKgz3c0ATub/"
+        "url": "https://www.instagram.com/p/CKgz3c0ATub/",
+        "date": "2021-01-26T00:00:00.000Z"
       },
       "geometry": {
         "type": "Point",
@@ -228,7 +245,8 @@
         "name": "La Diamo Pizza & L.D. Döner",
         "score": 10.5,
         "maximumPossibleScore": 15,
-        "url": "https://www.instagram.com/p/CJ4B7IWgv66/"
+        "url": "https://www.instagram.com/p/CJ4B7IWgv66/",
+        "date": "2021-01-10T00:00:00.000Z"
       },
       "geometry": {
         "type": "Point",
@@ -241,7 +259,8 @@
         "name": "Grill-Imbiss Nr. 1 Döner",
         "score": 12.5,
         "maximumPossibleScore": 15,
-        "url": "https://www.instagram.com/p/CJooFJ1gsKs/"
+        "url": "https://www.instagram.com/p/CJooFJ1gsKs/",
+        "date": "2021-01-04T00:00:00.000Z"
       },
       "geometry": {
         "type": "Point",
@@ -254,7 +273,8 @@
         "name": "Garips City",
         "score": 10.5,
         "maximumPossibleScore": 15,
-        "url": "https://www.instagram.com/p/CIoH6HBgcLZ/"
+        "url": "https://www.instagram.com/p/CIoH6HBgcLZ/",
+        "date": "2020-12-10T00:00:00.000Z"
       },
       "geometry": {
         "type": "Point",
@@ -267,7 +287,8 @@
         "name": "Amida Döner & Pizzeria",
         "score": 10,
         "maximumPossibleScore": 15,
-        "url": "https://www.instagram.com/p/CIQ18DdgLXB/"
+        "url": "https://www.instagram.com/p/CIQ18DdgLXB/",
+        "date": "2020-12-01T00:00:00.000Z"
       },
       "geometry": {
         "type": "Point",
@@ -280,7 +301,8 @@
         "name": "Arkadas",
         "score": 10,
         "maximumPossibleScore": 15,
-        "url": "https://www.instagram.com/p/CH-cpfBgolN/"
+        "url": "https://www.instagram.com/p/CH-cpfBgolN/",
+        "date": "2020-11-24T00:00:00.000Z"
       },
       "geometry": {
         "type": "Point",
@@ -293,7 +315,8 @@
         "name": "Dönertreff Hassee",
         "score": 13,
         "maximumPossibleScore": 15,
-        "url": "https://www.instagram.com/p/CHqA63Fg8Sc/"
+        "url": "https://www.instagram.com/p/CHqA63Fg8Sc/",
+        "date": "2020-11-16T00:00:00.000Z"
       },
       "geometry": {
         "type": "Point",
@@ -306,7 +329,8 @@
         "name": "Milan",
         "score": 11,
         "maximumPossibleScore": 15,
-        "url": "https://www.instagram.com/p/CGz28AogzFh/"
+        "url": "https://www.instagram.com/p/CGz28AogzFh/",
+        "date": "2020-10-26T00:00:00.000Z"
       },
       "geometry": {
         "type": "Point",
@@ -319,7 +343,8 @@
         "name": "Marmara",
         "score": 10.5,
         "maximumPossibleScore": 15,
-        "url": "https://www.instagram.com/p/CGPigBrAnhN/"
+        "url": "https://www.instagram.com/p/CGPigBrAnhN/",
+        "date": "2020-10-12T00:00:00.000Z"
       },
       "geometry": {
         "type": "Point",
@@ -332,7 +357,8 @@
         "name": "Garips",
         "score": 12.5,
         "maximumPossibleScore": 15,
-        "url": "https://www.instagram.com/p/CGKZkedgetm/"
+        "url": "https://www.instagram.com/p/CGKZkedgetm/",
+        "date": "2020-10-10T00:00:00.000Z"
       },
       "geometry": {
         "type": "Point",
@@ -345,7 +371,8 @@
         "name": "Erkans",
         "score": 11.5,
         "maximumPossibleScore": 15,
-        "url": "https://www.instagram.com/p/CE19lu_g_wX/"
+        "url": "https://www.instagram.com/p/CE19lu_g_wX/",
+        "date": "2020-09-07T00:00:00.000Z"
       },
       "geometry": {
         "type": "Point",
@@ -358,7 +385,8 @@
         "name": "Dilan's",
         "score": 13,
         "maximumPossibleScore": 15,
-        "url": "https://www.instagram.com/p/CEoTDdagTxH/"
+        "url": "https://www.instagram.com/p/CEoTDdagTxH/",
+        "date": "2020-09-02T00:00:00.000Z"
       },
       "geometry": {
         "type": "Point",
@@ -371,7 +399,8 @@
         "name": "SeyPa",
         "score": 13.5,
         "maximumPossibleScore": 15,
-        "url": "https://www.instagram.com/p/CD9Gq0bAkpY/"
+        "url": "https://www.instagram.com/p/CD9Gq0bAkpY/",
+        "date": "2020-08-16T00:00:00.000Z"
       },
       "geometry": {
         "type": "Point",
@@ -384,7 +413,8 @@
         "name": "Garips Kirchhochallee",
         "score": 13,
         "maximumPossibleScore": 15,
-        "url": "https://www.instagram.com/p/CDPL6FKg_Qg/"
+        "url": "https://www.instagram.com/p/CDPL6FKg_Qg/",
+        "date": "2020-07-29T00:00:00.000Z"
       },
       "geometry": {
         "type": "Point",
@@ -398,6 +428,7 @@
         "score": 10,
         "maximumPossibleScore": 15,
         "url": "https://www.instagram.com/p/CncmTfqA9jJ/",
+        "date": "2023-01-15T00:00:00.000Z",
         "oldReviews": [
           {
             "score": 8.5,
@@ -418,7 +449,8 @@
         "name": "Mein Döner & Co.",
         "score": 12,
         "maximumPossibleScore": 15,
-        "url": "https://www.instagram.com/p/CDHBC_FBwIg/"
+        "url": "https://www.instagram.com/p/CDHBC_FBwIg/",
+        "date": "2020-07-26T00:00:00.000Z"
       },
       "geometry": {
         "type": "Point",
@@ -431,7 +463,8 @@
         "name": "Lokma",
         "score": 8.5,
         "maximumPossibleScore": 15,
-        "url": "https://www.instagram.com/p/CC8bPRUBEFS/"
+        "url": "https://www.instagram.com/p/CC8bPRUBEFS/",
+        "date": "2020-07-22T00:00:00.000Z"
       },
       "geometry": {
         "type": "Point",
@@ -444,7 +477,8 @@
         "name": "Dogan",
         "score": 11,
         "maximumPossibleScore": 15,
-        "url": "https://www.instagram.com/p/CC088gwh9WB/"
+        "url": "https://www.instagram.com/p/CC088gwh9WB/",
+        "date": "2020-07-19T00:00:00.000Z"
       },
       "geometry": {
         "type": "Point",
@@ -457,7 +491,8 @@
         "name": "Mr. Döner",
         "score": 11.5,
         "maximumPossibleScore": 15,
-        "url": "https://www.instagram.com/p/CCttqYvBa9K/"
+        "url": "https://www.instagram.com/p/CCttqYvBa9K/",
+        "date": "2020-07-16T00:00:00.000Z"
       },
       "geometry": {
         "type": "Point",
@@ -470,7 +505,8 @@
         "name": "Hassee Pizzeria und Döner",
         "score": 10.5,
         "maximumPossibleScore": 15,
-        "url": "https://www.instagram.com/p/Cc23OKfIAKh/"
+        "url": "https://www.instagram.com/p/Cc23OKfIAKh/",
+        "date": "2022-04-27T00:00:00.000Z"
       },
       "geometry": {
         "type": "Point",
@@ -483,7 +519,8 @@
         "name": "Döner Olympia Wik",
         "score": 6,
         "maximumPossibleScore": 15,
-        "url": "https://www.instagram.com/p/CdsnXOAgZQP/"
+        "url": "https://www.instagram.com/p/CdsnXOAgZQP/",
+        "date": "2022-05-18T00:00:00.000Z"
       },
       "geometry": {
         "type": "Point",
@@ -496,7 +533,8 @@
         "name": "Ali Baba Pizza & Döner Raisdorf",
         "score": 12,
         "maximumPossibleScore": 15,
-        "url": "https://www.instagram.com/p/CeeFSoaglhE/"
+        "url": "https://www.instagram.com/p/CeeFSoaglhE/",
+        "date": "2022-06-06T00:00:00.000Z"
       },
       "geometry": {
         "type": "Point",
@@ -509,7 +547,8 @@
         "name": "Musti Imbiss",
         "score": 11,
         "maximumPossibleScore": 15,
-        "url": "https://www.instagram.com/p/Cf7CS0bI44c/"
+        "url": "https://www.instagram.com/p/Cf7CS0bI44c/",
+        "date": "2022-07-12T00:00:00.000Z"
       },
       "geometry": {
         "type": "Point",
@@ -522,7 +561,8 @@
         "name": "Baba Kebab & Pizza",
         "score": 11.5,
         "maximumPossibleScore": 15,
-        "url": "https://www.instagram.com/p/CgjXjjdA4Hp/"
+        "url": "https://www.instagram.com/p/CgjXjjdA4Hp/",
+        "date": "2022-07-28T00:00:00.000Z"
       },
       "geometry": {
         "type": "Point",
@@ -535,7 +575,8 @@
         "name": "Milans Döner",
         "score": 11.5,
         "maximumPossibleScore": 15,
-        "url": "https://www.instagram.com/p/CjDpOJJILfD/"
+        "url": "https://www.instagram.com/p/CjDpOJJILfD/",
+        "date": "2022-09-28T00:00:00.000Z"
       },
       "geometry": {
         "type": "Point",
@@ -549,6 +590,7 @@
         "score": 14.5,
         "maximumPossibleScore": 15,
         "url": "https://www.instagram.com/p/CjQnOkngPMG/",
+        "date": "2022-10-03T00:00:00.000Z",
         "oldReviews": [
           {
             "score": 12,
@@ -569,7 +611,8 @@
         "name": "Lecker Lecker",
         "score": 9.5,
         "maximumPossibleScore": 15,
-        "url": "https://www.instagram.com/p/CjyJL2soUpO/"
+        "url": "https://www.instagram.com/p/CjyJL2soUpO/",
+        "date": "2022-10-16T00:00:00.000Z"
       },
       "geometry": {
         "type": "Point",
@@ -582,7 +625,8 @@
         "name": "Lawin's Imbiss",
         "score": 10,
         "maximumPossibleScore": 15,
-        "url": "https://www.instagram.com/p/Ck6UqzjIJTa/"
+        "url": "https://www.instagram.com/p/Ck6UqzjIJTa/",
+        "date": "2022-11-13T00:00:00.000Z"
       },
       "geometry": {
         "type": "Point",
@@ -595,7 +639,8 @@
         "name": "Marmaris Schnellrestaurant",
         "score": 8,
         "maximumPossibleScore": 15,
-        "url": "https://www.instagram.com/p/CmCVP6RINLb/"
+        "url": "https://www.instagram.com/p/CmCVP6RINLb/",
+        "date": "2022-12-11T00:00:00.000Z"
       },
       "geometry": {
         "type": "Point",
@@ -608,7 +653,8 @@
         "name": "Pejas Suchsdorf",
         "score": 9.5,
         "maximumPossibleScore": 15,
-        "url": "https://www.instagram.com/p/CnKLVKKosQz/"
+        "url": "https://www.instagram.com/p/CnKLVKKosQz/",
+        "date": "2023-01-08T00:00:00.000Z"
       },
       "geometry": {
         "type": "Point",
@@ -621,7 +667,8 @@
         "name": "Ali Baba Döner und Pizza Elmschenhagen",
         "score": 9.5,
         "maximumPossibleScore": 15,
-        "url": "https://www.instagram.com/p/CoAlhMPISXX/"
+        "url": "https://www.instagram.com/p/CoAlhMPISXX/",
+        "date": "2023-01-29T00:00:00.000Z"
       },
       "geometry": {
         "type": "Point",
@@ -634,7 +681,8 @@
         "name": "Alin's Döner",
         "score": 5.5,
         "maximumPossibleScore": 15,
-        "url": "https://www.instagram.com/p/CqQmAGmoCSi/"
+        "url": "https://www.instagram.com/p/CqQmAGmoCSi/",
+        "date": "2023-03-26T00:00:00.000Z"
       },
       "geometry": {
         "type": "Point",
@@ -647,7 +695,8 @@
         "name": "Ali's Falafel",
         "score": 14,
         "maximumPossibleScore": 15,
-        "url": "https://www.instagram.com/p/CsB7Y9loll9/"
+        "url": "https://www.instagram.com/p/CsB7Y9loll9/",
+        "date": "2023-05-09T00:00:00.000Z"
       },
       "geometry": {
         "type": "Point",
@@ -660,7 +709,8 @@
         "name": "Salawaya Döner",
         "score": 10,
         "maximumPossibleScore": 15,
-        "url": "https://www.instagram.com/p/CuxMzkHIzVw/"
+        "url": "https://www.instagram.com/p/CuxMzkHIzVw/",
+        "date": "2023-07-16T00:00:00.000Z"
       },
       "geometry": {
         "type": "Point",
@@ -673,7 +723,8 @@
         "name": "Luppo Pizzeria&Döner",
         "score": 9,
         "maximumPossibleScore": 15,
-        "url": "https://www.instagram.com/p/Cx3XTJGIaqp/"
+        "url": "https://www.instagram.com/p/Cx3XTJGIaqp/",
+        "date": "2023-10-01T00:00:00.000Z"
       },
       "geometry": {
         "type": "Point",
@@ -686,7 +737,8 @@
         "name": "Imbiss Toros",
         "score": 10.5,
         "maximumPossibleScore": 15,
-        "url": "https://www.instagram.com/p/CyTQXKsI4u2/"
+        "url": "https://www.instagram.com/p/CyTQXKsI4u2/",
+        "date": "2023-10-12T00:00:00.000Z"
       },
       "geometry": {
         "type": "Point",
@@ -699,7 +751,8 @@
         "name": "Alanya Grill",
         "score": 8,
         "maximumPossibleScore": 10,
-        "url": "https://www.instagram.com/p/C0R--R6INkg/"
+        "url": "https://www.instagram.com/p/C0R--R6INkg/",
+        "date": "2023-11-30T00:00:00.000Z"
       },
       "geometry": {
         "type": "Point",
@@ -712,7 +765,8 @@
         "name": "Cafe Bumerang",
         "score": 8,
         "maximumPossibleScore": 10,
-        "url": "https://www.instagram.com/p/C4nXiiQoeDP/"
+        "url": "https://www.instagram.com/p/C4nXiiQoeDP/",
+        "date": "2024-03-17T00:00:00.000Z"
       },
       "geometry": {
         "type": "Point",

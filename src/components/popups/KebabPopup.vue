@@ -1,6 +1,6 @@
 <template>
   <div v-if="kebab" class="min-h-0 flex flex-grow flex-col overflow-y-auto pb-2">
-    <div class="mb-2 flex items-center border-b-1 pb-2 space-x-2 dark:border-dark-100">
+    <div class="flex items-center border-b-1 pb-2 space-x-2 dark:border-dark-100">
       <img v-if="prefersColorSchemeDark" src="../../assets/doenerdude.png" alt="Döner-Dude Logo">
       <img v-else src="../../assets/doenerdude-transparent.png" alt="Döner-Dude Logo">
       <div class="w-full flex flex-col text-center">
@@ -8,7 +8,7 @@
         <span class="text-lg">{{ kebab.properties.score }}/{{ kebab.properties.maximumPossibleScore }}</span>
       </div>
     </div>
-    <div class="flex flex-col gap-2">
+    <div class="flex flex-col gap-2 border-b-1 py-2 dark:border-dark-100">
       <Button :href="kebab.properties.url">
         <i-ph-instagram-logo class="mr-2" />Review auf Instagram
       </Button>
@@ -19,7 +19,10 @@
         <i-ph-map-pin-line class="mr-2" />In beliebiger Karten-App anzeigen
       </Button>
     </div>
-    <div v-if="kebab.properties.oldReviews !== undefined" class="mt-4">
+    <div class="flex content-center items-center gap-1 py-2">
+      <i-ph-calendar-star /><span>Datum: {{ new Date(kebab.properties.date).toLocaleDateString('de-DE') }}</span>
+    </div>
+    <div v-if="kebab.properties.oldReviews !== undefined" class="border-t-1 py-2 dark:border-dark-100">
       <span class="italic">Frühere Reviews:</span>
       <div v-for="review in kebab.properties.oldReviews" :key="review.date">
         {{ new Date(review.date).toLocaleDateString('de-DE') }}: {{ review.score }}/{{ review.maximumPossibleScore }}
