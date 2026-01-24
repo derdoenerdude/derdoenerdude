@@ -12,13 +12,13 @@
         So kannst du das Projekt unterstützen:
       </p>
       <Button href="https://www.instagram.com/derdoenerdude/">
-        <i-mdi-instagram class="mr-2" />Follow @derdoenerdude
+        <i-ph-instagram-logo class="mr-2" />Follow @derdoenerdude
       </Button>
       <Button href="https://github.com/derdoenerdude/derdoenerdude">
-        <i-mdi-github class="mr-2" />Develop on Github
+        <i-ph-github-logo class="mr-2" />Develop on Github
       </Button>
       <Button href="https://boomerang.ju60.de/share/P4gp79cu/derdoenerdude">
-        <i-ion-md-analytics class="mr-2" />Analytics
+        <i-ph-chart-line class="mr-2" />Analytics
       </Button>
     </div>
   </div>

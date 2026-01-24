@@ -24,7 +24,8 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^6.2.0",
-    "@iconify/json": "2.2.352",
+    "@iconify-json/logos": "^1.2.10",
+    "@iconify-json/ph": "^1.2.2",
     "@types/geojson": "7946.0.16",
     "@types/node": "24.0.3",
     "@unocss/eslint-plugin": "66.5.1",

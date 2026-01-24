@@ -18,7 +18,7 @@
         class="max-w-full flex py-2 not-last:border-b-1 dark:border-dark-300"
         @click="emit('update:search-input', '')"
       >
-        <i-dashicons-food class="mr-2" />
+        <i-ph-fork-knife-bold class="mr-2" />
         <span>{{ searchResult.properties.name }}</span>
         <div class="ml-auto max-h-6 min-w-16 w-16 flex justify-center rounded-lg bg-light-600 dark:bg-dark-300">
           {{ searchResult.properties.score }}/{{ searchResult.properties.maximumPossibleScore }}

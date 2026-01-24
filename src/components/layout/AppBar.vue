@@ -3,7 +3,7 @@
     class="absolute left-0 right-0 top-0 z-20 mx-2 mt-2 h-12 flex items-center justify-center border-1 border-gray-200 rounded-md bg-white py-4 shadow-xl md:left-1/2 md:right-auto md:w-96 md:transform dark:border-dark-800 dark:bg-dark-400 dark:text-gray-300 md:-translate-x-1/2"
   >
     <div class="flex cursor-pointer select-none items-center p-2">
-      <i-ic-baseline-arrow-back v-if="$route.name === 'search'" class="h-6 w-6" @click="$router.back()" />
+      <i-ph-arrow-left v-if="$route.name === 'search'" class="h-6 w-6" @click="$router.back()" />
       <router-link v-else :to="{ name: 'home' }">
         <img
           :src="prefersColorSchemeDark ? doenerdudeIcon : doenerdudeIconTransparent"
