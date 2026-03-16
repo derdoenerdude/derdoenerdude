@@ -1,3 +1,5 @@
 minimumReleaseAge: 1440 # 1 day
 trustPolicy: no-downgrade
 trustPolicyIgnoreAfter: 262980 # 6 months
+trustPolicyExclude:
+  - rollup@2.80.0
