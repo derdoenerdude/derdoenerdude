@@ -3,3 +3,6 @@ trustPolicy: no-downgrade
 trustPolicyIgnoreAfter: 262980 # 6 months
 trustPolicyExclude:
   - rollup@2.80.0
+minimumReleaseAgeExclude:
+  # Renovate security update: vite@8.0.5
+  - vite@8.0.5
