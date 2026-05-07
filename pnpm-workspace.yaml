@@ -2,4 +2,4 @@ minimumReleaseAge: 1440 # 1 day
 trustPolicy: no-downgrade
 trustPolicyIgnoreAfter: 262980 # 6 months
 trustPolicyExclude:
-  - rollup@2.80.0
+  - '@trickfilm400/rollup-plugin-off-main-thread@3.0.0-pre1'
