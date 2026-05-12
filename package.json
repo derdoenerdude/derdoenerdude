@@ -2,7 +2,7 @@
   "name": "@doenerdude/app",
   "type": "module",
   "version": "0.0.0",
-  "packageManager": "pnpm@11.0.1+sha512.ddb1f0a53fb56603ed96b018dbcff83ff1c5fb510c9f97c2aef19af51c776c8d90c67e12c223c34db792b75634700e15419cb87341ba4947a2fc151822fbdcf2",
+  "packageManager": "pnpm@11.0.9+sha512.34ce82e6780233cf9cad8685029a8f81d2e06196c5a9bad98879f7424940c6817c4e4524fb7d38b8553ceed48b9758b8ebaf1abd3600c232c4c8cf7366086f38",
   "engines": {
     "node": "24",
     "pnpm": "11"
