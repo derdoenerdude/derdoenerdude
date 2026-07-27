@@ -16,7 +16,7 @@
           params: { markerType: 'kebab', markerId: searchResult.properties.name },
         }"
         class="max-w-full flex py-2 not-last:border-b-1 dark:border-dark-300"
-        @click="emit('update:search-input', '')"
+        @click="emit('update:searchInput', '')"
       >
         <i-ph-fork-knife-bold class="mr-2" />
         <span>{{ searchResult.properties.name }}</span>
@@ -43,7 +43,7 @@ const props = withDefaults(
   },
 );
 
-const emit = defineEmits<(e: 'update:search-input', searchInput: string) => void>();
+const emit = defineEmits<(e: 'update:searchInput', searchInput: string) => void>();
 
 const searchInput = toRef(props, 'searchInput');
 const searchData = reviews.features;

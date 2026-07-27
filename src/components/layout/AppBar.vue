@@ -54,7 +54,7 @@ const props = defineProps<{
   searchInput: string;
 }>();
 
-const emit = defineEmits<(e: 'update:search-input', searchInput: string) => void>();
+const emit = defineEmits<(e: 'update:searchInput', searchInput: string) => void>();
 
 const route = useRoute();
 const router = useRouter();
@@ -67,7 +67,7 @@ const internalSearchInput = computed({
     return searchInput.value;
   },
   set(_searchInput: string) {
-    emit('update:search-input', _searchInput);
+    emit('update:searchInput', _searchInput);
 
     if (_searchInput.length > 0 && route.name !== 'search') {
       void router.push({ name: 'search' });
