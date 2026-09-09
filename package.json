@@ -18,7 +18,7 @@
     "@unocss/reset": "66.6.6",
     "@vueuse/core": "14.0.0",
     "fuse.js": "7.1.0",
-    "maplibre-gl": "5.6.0",
+    "maplibre-gl": "6.4.1",
     "vue": "3.5.17",
     "vue-router": "5.2.0"
   },
